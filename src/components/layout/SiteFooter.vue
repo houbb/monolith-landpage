@@ -8,12 +8,12 @@ const productLinks = [
   { key: 'download', to: '/download' },
   { key: 'github', href: SITE.githubUrl },
   { key: 'releases', href: SITE.releaseUrl },
-  { key: 'issues', href: 'https://github.com/houbb/monolith/issues' },
+  { key: 'issues', href: 'https://github.com/houbb/monolith-landpage/issues' },
 ]
 
 const communityLinks = [
   { key: 'contact', to: '/contact' },
-  { key: 'discussions', href: 'https://github.com/houbb/monolith/discussions' },
+  { key: 'discussions', href: 'https://github.com/houbb/monolith-landpage/discussions' },
 ]
 
 const legalLinks = [

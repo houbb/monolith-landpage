@@ -52,7 +52,7 @@ export default {
       description: 'Report bugs or suggest features through GitHub Issues.',
       items: ['Bug reports and tracking', 'Feature suggestions', 'Code contributions'],
       buttonText: 'Go to Issues',
-      buttonHref: 'https://github.com/houbb/monolith/issues',
+      buttonHref: 'https://github.com/houbb/monolith-landpage/issues',
     },
     businessCard: {
       title: 'Business Cooperation',

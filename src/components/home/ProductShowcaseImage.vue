@@ -68,35 +68,80 @@ onUnmounted(() => {
       <!-- Image container -->
       <div
         class="transition-all duration-1000 delay-300"
-        :class="visible ? 'opacity-100 scale-[1] translate-y-0' : 'opacity-0 scale-[0.97] translate-y-8'"
+        :class="visible ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-12 scale-[0.97]'"
       >
-        <div
-          class="relative rounded-2xl overflow-hidden"
-          style="
-            border: 1px solid rgba(216,168,79,0.18);
-            box-shadow:
-              0 4px 60px rgba(216,168,79,0.06),
-              0 80px 120px -40px rgba(0,0,0,0.7);
-          "
-        >
-          <!-- Subtle inner frame line -->
+        <div class="relative max-w-4xl mx-auto">
+          <!-- Glow backdrop behind image -->
           <div
-            class="absolute inset-0 rounded-2xl pointer-events-none"
-            style="border: 1px solid rgba(255,255,255,0.03)"
+            class="absolute -inset-4 md:-inset-8 rounded-3xl blur-2xl opacity-40"
+            style="background: linear-gradient(135deg, rgba(216,168,79,0.08) 0%, rgba(99,102,241,0.04) 50%, rgba(16,185,129,0.06) 100%)"
           />
 
-          <!-- The image -->
-          <img
-            src="/local-first-page.png"
-            alt="Monolith Knowledge OS - Your knowledge, organized, connected, yours."
-            class="w-full h-auto block"
-            loading="lazy"
-          />
-
-          <!-- Bottom gradient overlay for seamless blend -->
+          <!-- Image frame with glass effect -->
           <div
-            class="absolute bottom-0 left-0 right-0 h-24 pointer-events-none"
-            style="background: linear-gradient(to top, #050505, transparent)"
+            class="relative rounded-2xl overflow-hidden"
+            style="
+              border: 1px solid rgba(216,168,79,0.12);
+              background: linear-gradient(145deg, rgba(13,13,13,0.9), rgba(8,8,8,0.95));
+              box-shadow:
+                0 0 0 1px rgba(255,255,255,0.03),
+                0 24px 48px -12px rgba(0,0,0,0.5),
+                0 0 80px -20px rgba(216,168,79,0.08);
+            "
+          >
+            <!-- Top chrome bar -->
+            <div
+              class="flex items-center gap-2 px-4 py-3 border-b"
+              style="border-color: rgba(255,255,255,0.05); background: rgba(255,255,255,0.01)"
+            >
+              <div class="flex gap-1.5">
+                <div class="w-2.5 h-2.5 rounded-full" style="background: rgba(244,63,94,0.7)" />
+                <div class="w-2.5 h-2.5 rounded-full" style="background: rgba(245,158,11,0.7)" />
+                <div class="w-2.5 h-2.5 rounded-full" style="background: rgba(34,197,94,0.7)" />
+              </div>
+              <span
+                class="flex-1 text-center text-[11px] font-mono tracking-wide"
+                style="color: #4A4540"
+              >
+                Monolith Knowledge OS
+              </span>
+            </div>
+
+            <!-- Image container -->
+            <div class="relative p-2 md:p-4">
+              <div class="relative rounded-xl overflow-hidden group">
+                <img
+                  src="/local-first-page.webp"
+                  alt="Monolith Knowledge OS - Your knowledge, organized, connected, yours."
+                  class="w-full h-auto object-contain transition-transform duration-700 group-hover:scale-[1.01]"
+                  style="filter: contrast(1.03) brightness(0.98); border-radius: 12px;"
+                  loading="lazy"
+                />
+                <!-- Gradient overlay at bottom of image -->
+                <div
+                  class="absolute bottom-0 left-0 right-0 h-16 pointer-events-none transition-opacity duration-500 group-hover:opacity-0"
+                  style="background: linear-gradient(to top, rgba(5,5,5,0.3), transparent); border-radius: 0 0 12px 12px;"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Decorative corner accents -->
+          <div
+            class="absolute -top-2 -left-2 w-6 h-6 border-l-2 border-t-2 rounded-tl-lg opacity-30 transition-opacity duration-500"
+            style="border-color: #D8A84F"
+          />
+          <div
+            class="absolute -top-2 -right-2 w-6 h-6 border-r-2 border-t-2 rounded-tr-lg opacity-30 transition-opacity duration-500"
+            style="border-color: #D8A84F"
+          />
+          <div
+            class="absolute -bottom-2 -left-2 w-6 h-6 border-l-2 border-b-2 rounded-bl-lg opacity-30 transition-opacity duration-500"
+            style="border-color: #D8A84F"
+          />
+          <div
+            class="absolute -bottom-2 -right-2 w-6 h-6 border-r-2 border-b-2 rounded-br-lg opacity-30 transition-opacity duration-500"
+            style="border-color: #D8A84F"
           />
         </div>
 

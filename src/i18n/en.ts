@@ -244,7 +244,7 @@ export default {
       description: 'Report bugs, request features, or join discussions',
       items: ['Submit Issue', 'Feature Request', 'Join Discussion'],
       buttonText: 'Go to GitHub',
-      buttonHref: 'https://github.com/houbb/monolith/issues',
+      buttonHref: 'https://github.com/houbb/monolith-landpage/issues',
     },
     businessCard: {
       title: 'Business',

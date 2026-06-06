@@ -244,7 +244,7 @@ export default {
       description: '提交 Bug、功能建议或参与讨论',
       items: ['提交 Issue', '功能请求', '参与讨论'],
       buttonText: '前往 GitHub',
-      buttonHref: 'https://github.com/houbb/monolith/issues',
+      buttonHref: 'https://github.com/houbb/monolith-landpage/issues',
     },
     businessCard: {
       title: '商业合作',
