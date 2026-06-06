@@ -71,7 +71,7 @@ export default {
       desc: '内核只做最基础的事，所有高级能力通过插件按需加载，保持轻盈与灵活。',
     },
     uiStyle: {
-      title: 'Apple 风格 UI',
+      title: '风格 UI',
       desc: '毛玻璃标题栏、圆角卡片、平滑动画，每个像素都经得起凝视。',
     },
   },
