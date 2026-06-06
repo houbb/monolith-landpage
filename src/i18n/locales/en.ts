@@ -10,6 +10,7 @@ export default {
     windowsDesc: 'Windows installer, supports Windows 10 and above.',
     macosDesc: 'macOS installer, supports Apple Silicon and Intel chips.',
     linuxDesc: 'Linux packages, supports AppImage, deb and rpm formats.',
+    viewAllVersions: 'View All Versions',
     installGuide: 'Installation Guide',
     installWindows: 'Windows Installation',
     installWindowsStep1: '1. Download the .exe installer',

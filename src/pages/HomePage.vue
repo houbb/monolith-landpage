@@ -2,8 +2,12 @@
 import SiteHeader from '@/components/layout/SiteHeader.vue'
 import SiteFooter from '@/components/layout/SiteFooter.vue'
 import HeroSection from '@/components/home/HeroSection.vue'
-import FeatureGrid from '@/components/home/FeatureGrid.vue'
-import ProductShowcase from '@/components/home/ProductShowcase.vue'
+import DesignPhilosophy from '@/components/home/DesignPhilosophy.vue'
+import AiIntroSection from '@/components/home/AiIntroSection.vue'
+import PluginIntroSection from '@/components/home/PluginIntroSection.vue'
+import CapabilitiesBento from '@/components/home/CapabilitiesBento.vue'
+import ProductShowcaseImage from '@/components/home/ProductShowcaseImage.vue'
+import ThemeShowcase from '@/components/home/ThemeShowcase.vue'
 import DownloadCta from '@/components/home/DownloadCta.vue'
 import CommunityCta from '@/components/home/CommunityCta.vue'
 </script>
@@ -13,8 +17,12 @@ import CommunityCta from '@/components/home/CommunityCta.vue'
     <SiteHeader />
     <main>
       <HeroSection />
-      <FeatureGrid />
-      <ProductShowcase />
+      <DesignPhilosophy />
+      <CapabilitiesBento />
+      <AiIntroSection />
+      <PluginIntroSection />
+      <ProductShowcaseImage />
+      <ThemeShowcase />
       <DownloadCta />
       <CommunityCta />
     </main>

@@ -5,6 +5,7 @@ const props = withDefaults(defineProps<{
   variant?: 'primary' | 'secondary' | 'text'
   href?: string
   to?: string
+  download?: string
 }>(), {
   variant: 'primary',
 })
@@ -25,6 +26,7 @@ const primaryBg = 'background: linear-gradient(135deg, #D8A84F, #FFD985)'
     :href="href"
     target="_blank"
     rel="noopener noreferrer"
+    :download="download"
     :class="[baseClass, variantClass]"
     :style="variant === 'primary' ? primaryBg : undefined"
   >

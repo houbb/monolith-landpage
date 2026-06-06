@@ -7,17 +7,18 @@ export default {
     github: 'GitHub',
   },
   hero: {
+    label: 'Local-First Knowledge Operating System',
     title: 'Monolith',
-    subtitle: 'Your Local-First Knowledge OS — Notes, Graph, AI, and Plugins in one place',
+    sloganLine1: 'Let knowledge never sleep',
+    sloganLine2: 'Let ideas grow naturally',
+    subtitle: 'Notes, graph, AI, and plugins in one place. Only 20MB, fully local. Your knowledge, your rules.',
     btnDownload: 'Download Now',
     btnGithub: 'GitHub',
     btnCommunity: 'Join Community',
-    tagNotes: 'Notes',
-    tagGraph: 'Graph',
-    tagAI: 'AI',
-    tagSearch: 'Search',
-    tagPlugins: 'Plugins',
-    tagLocalFirst: 'Local First',
+    statSize: 'Install Size',
+    statThemes: 'Themes',
+    statLocal: 'Local Storage',
+    statOpen: 'Free Forever',
   },
   features: {
     sectionTitle: 'Core Features',
@@ -52,6 +53,132 @@ export default {
       'Multi-Device Sync',
       'Theme & Appearance',
     ],
+  },
+  philosophy: {
+    label: 'Design Philosophy',
+    title: 'Monolith, from "The Eternal Stone"',
+    subtitle: 'Knowledge carved in stone lasts forever. We believe tools should serve quietly, not steal the spotlight.',
+    localFirst: {
+      title: 'Local First',
+      desc: 'All data stored locally, no cloud needed. You are in full control of your knowledge assets.',
+    },
+    plainText: {
+      title: 'Plain Text Driven',
+      desc: 'Notes are just Markdown files. No lock-in, no black box. Migratable, backupable, programmable.',
+    },
+    plugin: {
+      title: 'Minimal Core, Plugin Extensible',
+      desc: 'The core does only the essentials. All advanced capabilities load via plugins on demand.',
+    },
+    uiStyle: {
+      title: 'Apple-Inspired UI',
+      desc: 'Frosted glass title bar, rounded cards, smooth animations — every pixel withstands scrutiny.',
+    },
+  },
+  capabilities: {
+    label: 'Capabilities',
+    sectionTitle: 'Break Through Every Bottleneck in Knowledge Management',
+    sectionSubtitle: 'Starting from pain points, redefining what knowledge tools should be',
+    localFirst: {
+      label: 'Data Sovereignty',
+      title: 'Local First, Lightning Install',
+      desc: 'All data stored locally. Works offline. Your knowledge, your rules. Only 20MB, install and go.',
+      badge: 'Ultra Small',
+    },
+    aiWorkspace: {
+      label: 'AI Native',
+      title: 'AI as an OS-Level Capability',
+      desc: "Not just a chat box. {'@'} file context, / slash commands, Plan Mode, Diff/Patch full-pipeline AI workspace.",
+      chat1: "{'@'}current-file summarize",
+      chat2: '/rewrite academic style',
+      chat3: 'Summary generated from 12 notes...',
+    },
+    knowledgeGraph: {
+      label: 'Knowledge Network',
+      title: 'See the Big Picture',
+      desc: 'Visualize knowledge connections, discover hidden links, build your mind network. Global + local graph views.',
+    },
+    bidirectionalLinks: {
+      label: 'Bidirectional Links',
+      title: 'Every Thought Finds Its Place',
+      desc: 'Auto-track references, backlinks at a glance, let knowledge grow naturally.',
+    },
+    semanticSearch: {
+      label: 'Smart Retrieval',
+      title: 'Semantic Understanding, Precise Hits',
+      desc: 'Vector retrieval + keyword hybrid search. Find what you forgot you knew.',
+    },
+    pluginEcosystem: {
+      label: 'Plugin Ecosystem',
+      title: 'Extend On Demand, Infinite Possibilities',
+      desc: 'Open plugin system + runtime block engine. SQL/HTTP/Code executable blocks.',
+    },
+    codeGraph: {
+      label: 'Code Understanding',
+      title: 'Code Graph for 13 Languages',
+      desc: 'Visualize code structure and dependencies at a glance. Not available in Obsidian.',
+    },
+    gitSync: {
+      label: 'Version Control',
+      title: 'Git Native Integration',
+      desc: 'Branch management, commit history, stash. No community plugin needed.',
+    },
+    runtimeBlocks: {
+      label: 'Executable Notes',
+      title: 'SQL / HTTP / Code Blocks',
+      desc: 'Notes are not just text. Run code, query data, make HTTP requests.',
+    },
+  },
+  aiIntro: {
+    label: 'AI-Native Architecture',
+    title: 'AI Is Not a Feature — It\'s the Foundation',
+    subtitle: 'From context-aware understanding to multi-step reasoning, Monolith reimagines how AI and knowledge coexist. Not a chatbot bolted on, but intelligence woven into every interaction.',
+    feature1: {
+      title: 'Context-Aware',
+      desc: 'AI understands your entire knowledge base, not just the current file.',
+    },
+    feature2: {
+      title: 'Multi-Step Reasoning',
+      desc: 'Plan, execute, verify — AI works through complex tasks autonomously.',
+    },
+    feature3: {
+      title: 'Human in Control',
+      desc: 'You decide when and how AI assists. Transparency at every step.',
+    },
+  },
+  pluginIntro: {
+    label: 'Plugin Ecosystem',
+    title: 'Everything Is a Plugin, Infinite Possibilities',
+    subtitle: 'From SQL queries to HTTP requests, from code execution to custom UI — every capability in Monolith is a plugin waiting to be discovered or created by you.',
+    feature1: {
+      title: 'Open Architecture',
+      desc: 'Standardized plugin API with full lifecycle management: install, enable, configure, disable.',
+    },
+    feature2: {
+      title: 'Runtime Blocks',
+      desc: 'SQL, HTTP, Python, JavaScript — execute code directly inside your notes.',
+    },
+    feature3: {
+      title: 'Community Marketplace',
+      desc: 'Browse and share plugins built by the community. Or build your own in minutes.',
+    },
+    feature4: {
+      title: 'Beyond Black & White',
+      desc: '30+ handcrafted themes, CSS snippets, and full customization — your knowledge garden deserves color.',
+    },
+  },
+  showcaseImage: {
+    label: 'Product Overview',
+    title: 'Your knowledge. Organized. Connected. Yours.',
+    subtitle: 'Knowledge graph, AI assistant, notes, plugins — all in one place',
+    caption1: 'Local-first, data stays on device',
+    caption2: 'AI-native workspace',
+    caption3: '20MB ultra-lightweight',
+  },
+  themeShowcase: {
+    label: 'Theme Studio',
+    title: 'Your Knowledge Garden Should Be Colorful',
+    subtitle: '30+ built-in themes, from Deep Gold to Aurora Purple, from Forest Green to Rose Red. Each one is meticulously crafted, or use CSS Snippets to build your own.',
   },
   downloadCta: {
     title: 'Get Started with Monolith',

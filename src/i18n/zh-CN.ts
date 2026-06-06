@@ -7,17 +7,18 @@ export default {
     github: 'GitHub',
   },
   hero: {
+    label: '本地优先的知识操作系统',
     title: 'Monolith',
-    subtitle: '本地优先的知识操作系统，让笔记、图谱、AI 与插件融为一体',
+    sloganLine1: '让知识不再沉睡',
+    sloganLine2: '让思想自然生长',
+    subtitle: '笔记、图谱、AI 与插件融为一体。20MB 极致轻量，数据完全在本地，你的知识，你做主。',
     btnDownload: '立即下载',
     btnGithub: 'GitHub',
     btnCommunity: '加入社区',
-    tagNotes: '笔记',
-    tagGraph: '图谱',
-    tagAI: 'AI',
-    tagSearch: '搜索',
-    tagPlugins: '插件',
-    tagLocalFirst: '本地优先',
+    statSize: '安装包',
+    statThemes: '内置主题',
+    statLocal: '本地存储',
+    statOpen: '完全免费',
   },
   features: {
     sectionTitle: '核心能力',
@@ -52,6 +53,132 @@ export default {
       '多端数据同步',
       '主题与外观定制',
     ],
+  },
+  philosophy: {
+    label: '设计理念',
+    title: 'Monolith，取自"永恒之石"',
+    subtitle: '知识如刻石般永存。我们相信工具应该安静地服务用户，而不是喧宾夺主。',
+    localFirst: {
+      title: '本地优先',
+      desc: '所有数据存储在本地，无需联网，用户完全掌控自己的知识资产。',
+    },
+    plainText: {
+      title: '纯文本驱动',
+      desc: '笔记即 Markdown 文件，无锁定、无黑盒，随时可迁移、可备份、可编程。',
+    },
+    plugin: {
+      title: '核心极简，插件扩展',
+      desc: '内核只做最基础的事，所有高级能力通过插件按需加载，保持轻盈与灵活。',
+    },
+    uiStyle: {
+      title: 'Apple 风格 UI',
+      desc: '毛玻璃标题栏、圆角卡片、平滑动画，每个像素都经得起凝视。',
+    },
+  },
+  capabilities: {
+    label: '产品能力',
+    sectionTitle: '突破知识管理的每一个瓶颈',
+    sectionSubtitle: '从痛点出发，重新定义知识工具该有的样子',
+    localFirst: {
+      label: '数据主权',
+      title: '本地优先，极速安装',
+      desc: '数据完全存储在本地，无需联网即可使用。你的知识，你做主。安装包仅 20MB，开箱即用，告别臃肿。',
+      badge: '极小安装包',
+    },
+    aiWorkspace: {
+      label: 'AI 原生',
+      title: 'AI 是操作系统级能力',
+      desc: "不是简单聊天框，而是 {'@'} 文件上下文、/ 斜杠命令、Plan Mode、Diff/Patch 全链路 AI 工作台。",
+      chat1: "{'@'}当前文件 总结要点",
+      chat2: '/rewrite 学术风格',
+      chat3: '已基于 12 篇笔记生成摘要...',
+    },
+    knowledgeGraph: {
+      label: '知识网络',
+      title: '看见知识的全貌',
+      desc: '可视化知识关联，发现隐藏联系，构建你的思维网络。全局图谱 + 局部图谱双视角。',
+    },
+    bidirectionalLinks: {
+      label: '双向链接',
+      title: '每个想法都有归处',
+      desc: '自动追踪引用关系，反向链接一览无余，让知识自然生长。',
+    },
+    semanticSearch: {
+      label: '智能检索',
+      title: '语义理解，精准命中',
+      desc: '向量检索 + 关键词混合搜索，找到你忘了你记得的。',
+    },
+    pluginEcosystem: {
+      label: '插件生态',
+      title: '按需扩展，无限可能',
+      desc: '开放插件体系 + 运行时块引擎，SQL/HTTP/Code 可执行块，打造专属工具。',
+    },
+    codeGraph: {
+      label: '代码理解',
+      title: '13 种语言代码图谱',
+      desc: '代码结构可视化，依赖关系一目了然。Obsidian 没有的能力。',
+    },
+    gitSync: {
+      label: '版本控制',
+      title: 'Git 原生集成',
+      desc: '分支管理、提交历史、储藏，无需社区插件，开箱即用。',
+    },
+    runtimeBlocks: {
+      label: '可执行笔记',
+      title: 'SQL / HTTP / Code 可执行块',
+      desc: '笔记不只是文字，还能运行代码、查询数据、发起请求。',
+    },
+  },
+  aiIntro: {
+    label: 'AI 原生架构',
+    title: 'AI 不是功能 — 而是基石',
+    subtitle: '从上下文感知到多步推理，Monolith 重新定义了 AI 与知识的共生方式。不是外挂的聊天框，而是融入每一次交互的智能。',
+    feature1: {
+      title: '全局感知',
+      desc: 'AI 理解你的整个知识库，而非仅限于当前文件。',
+    },
+    feature2: {
+      title: '多步推理',
+      desc: '规划、执行、验证——AI 自主完成复杂任务链路。',
+    },
+    feature3: {
+      title: '人为主导',
+      desc: '你决定何时、如何使用 AI 辅助。每一步都透明可控。',
+    },
+  },
+  pluginIntro: {
+    label: '插件生态',
+    title: '万物皆是插件，具有无限可能',
+    subtitle: '从 SQL 查询到 HTTP 请求，从代码执行到自定义 UI —— Monolith 的每一项能力都是一个插件，等待你去发现或创造。',
+    feature1: {
+      title: '开放架构',
+      desc: '标准化插件 API，完整的生命周期管理：安装、启用、配置、禁用。',
+    },
+    feature2: {
+      title: '运行时块',
+      desc: 'SQL、HTTP、Python、JavaScript —— 在笔记内直接执行代码。',
+    },
+    feature3: {
+      title: '社区市场',
+      desc: '浏览和分享社区构建的插件，或几分钟内打造你自己的插件。',
+    },
+    feature4: {
+      title: '世界并不是只有黑白两色',
+      desc: '30+ 精心打磨的主题、CSS Snippet 与深度定制 —— 你的知识花园，应当五彩缤纷。',
+    },
+  },
+  showcaseImage: {
+    label: '产品全景',
+    title: '你的知识，井然有序，彼此相连，由你掌控',
+    subtitle: '知识图谱、AI 助手、笔记编辑、插件生态，一切融为一体',
+    caption1: '本地优先，数据不上云',
+    caption2: 'AI 原生工作台',
+    caption3: '20MB 极致轻量',
+  },
+  themeShowcase: {
+    label: '主题定制',
+    title: '你的知识花园，自当五彩缤纷',
+    subtitle: '30+ 内置主题，从深邃金到极光紫，从森林绿到玫瑰红。每一套都经过精心打磨，也可以用 CSS Snippet 打造专属外观。',
   },
   downloadCta: {
     title: '开始使用 Monolith',

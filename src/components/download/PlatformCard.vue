@@ -5,6 +5,7 @@ import { Monitor, Laptop, Terminal } from 'lucide-vue-next'
 import GoldCard from '@/components/common/GoldCard.vue'
 import GoldButton from '@/components/common/GoldButton.vue'
 import { SITE } from '@/config/site'
+import { DOWNLOAD, CURRENT_VERSION } from '@/config/download'
 
 const props = defineProps<{
   platform: string
@@ -25,6 +26,19 @@ const iconMap: Record<string, Component> = {
 }
 
 const IconComponent = computed(() => iconMap[props.icon] || Monitor)
+
+const isWindows = computed(() => props.platform === 'Windows')
+
+const windowsDownloadLinks = computed(() => [
+  {
+    text: '.exe',
+    href: DOWNLOAD.windowsExe,
+  },
+  {
+    text: '.msi',
+    href: DOWNLOAD.windowsMsi,
+  },
+])
 </script>
 
 <template>
@@ -67,10 +81,25 @@ const IconComponent = computed(() => iconMap[props.icon] || Monitor)
           <!-- Description -->
           <p class="text-[#9B9488] text-sm">{{ t(description) }}</p>
 
-          <!-- Download button -->
-          <GoldButton variant="primary" :href="SITE.releaseUrl">
-            {{ t(actionText) }}
-          </GoldButton>
+          <!-- Download buttons -->
+          <div class="w-full flex flex-col gap-2">
+            <template v-if="isWindows">
+              <GoldButton
+                v-for="link in windowsDownloadLinks"
+                :key="link.text"
+                variant="primary"
+                :href="link.href"
+                :download="`Monolith_${CURRENT_VERSION}_x64${link.text}`"
+              >
+                {{ t('download.downloadNow') }} {{ link.text }}
+              </GoldButton>
+            </template>
+            <template v-else>
+              <GoldButton variant="primary" :href="SITE.releaseUrl">
+                {{ t(actionText) }}
+              </GoldButton>
+            </template>
+          </div>
         </div>
       </GoldCard>
     </div>
