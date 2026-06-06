@@ -7,8 +7,6 @@
 **让知识不再沉睡，让思想自然生长**
 
 [![下载](https://img.shields.io/badge/免费下载-latest-gold?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNENEE0NEYiIHN0cm9rZS13aWR0aD0iMiI+PHBhdGggZD0iTTIxIDE1djRhMiAyIDAgMCAxLTIgMkg1YTIgMiAwIDAgMS0yLTJ2LTQiLz48cG9seWxpbmUgcG9pbnRzPSI3IDEwIDEyIDE1IDE3IDEwIi8+PGxpbmUgeDE9IjEyIiB5MT0iMTUiIHgyPSIxMiIgeTI9IjMiLz48L3N2Zz4=)](https://github.com/houbb/monolith-landpage/releases/latest)
-[![GitHub](https://img.shields.io/badge/GitHub-源码-black?style=for-the-badge&logo=github)](https://github.com/houbb/monolith)
-[![免费](https://img.shields.io/badge/完全免费-开源-10B981?style=for-the-badge)](https://github.com/houbb/monolith)
 
 </div>
 
@@ -135,11 +133,13 @@ Notion    ███████████████████████�
 
 ## 📥 立即下载
 
-免费、开源、本地优先。选择适合你操作系统的版本：
+本地优先，基础功能终生免费。
+
+选择适合你操作系统的版本：
 
 | 平台 | 说明 |
 |:---:|:---|
-| 🪟 **Windows** | 适用于 Windows 10 及以上 |
+| 🪟 **Windows** | 适用于 Windows 7 及以上 |
 | 🍎 **macOS** | 适用于 macOS 12 及以上 |
 | 🐧 **Linux** | 适用于 Ubuntu 20.04 及以上 |
 
@@ -149,11 +149,37 @@ Notion    ███████████████████████�
 
 ## 🤝 加入社区
 
-| 渠道 | 说明 |
-|:---:|:---|
-| 💬 [微信交流群](mailto:houbinbin.echo@gmail.com) | 扫码加入微信交流群 |
-| 🐛 [GitHub Issues](https://github.com/houbb/monolith-landpage/issues) | 提交 Bug、功能建议 |
-| 📧 [邮件联系](mailto:houbinbin.echo@gmail.com) | 商业合作、技术支持 |
+<table>
+<tr>
+<td width="33%" align="center">
+
+💬 **微信交流群**
+
+<img src="./public/WECHAT.png" width="180" alt="微信群二维码">
+
+扫码加入微信交流群
+
+</td>
+<td width="34%" align="center">
+
+🐛 **问题反馈**
+
+[![GitHub Issues](https://img.shields.io/badge/GitHub-Issues-black?style=for-the-badge&logo=github)](https://github.com/houbb/monolith-landpage/issues)
+
+提交 Bug、功能建议<br/>或参与讨论
+
+</td>
+<td width="33%" align="center">
+
+📧 **邮件联系**
+
+[![Email](https://img.shields.io/badge/houbinbin.echo@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:houbinbin.echo@gmail.com)
+
+商业合作、技术支持
+
+</td>
+</tr>
+</table>
 
 ---
 
