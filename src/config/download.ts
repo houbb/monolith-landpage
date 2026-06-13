@@ -1,10 +1,10 @@
-export const CURRENT_VERSION = '0.49.1'
+export const CURRENT_VERSION = '0.59.0'
 
 export const GITHUB_RELEASE_URL = 'https://github.com/houbb/monolith-landpage/releases'
 
 export const DOWNLOAD = {
-  windowsExe: `https://github.com/houbb/monolith-landpage/releases/download/${CURRENT_VERSION}/Monolith_${CURRENT_VERSION}_x64-setup.exe`,
-  windowsMsi: `https://github.com/houbb/monolith-landpage/releases/download/${CURRENT_VERSION}/Monolith_${CURRENT_VERSION}_x64_en-US.msi`,
+  windowsExe: `https://github.com/houbb/monolith-landpage/releases/download/v0.59.0/Monolith_0.59.0_x64-setup.exe`,
+  windowsMsi: `https://github.com/houbb/monolith-landpage/releases/download/v0.59.0/Monolith_0.59.0_x64_en-US.msi`,
   platforms: [
     {
       platform: 'Windows',

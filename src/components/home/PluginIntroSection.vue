@@ -136,7 +136,7 @@ onUnmounted(() => {
             <div class="relative p-2 md:p-4">
               <div class="relative rounded-xl overflow-hidden group">
                 <img
-                  src="/monolith-plugin-system.webp"
+                  src="/monolith-plugin-system.png"
                   alt="Monolith Plugin System"
                   class="w-full h-auto object-contain transition-transform duration-700 group-hover:scale-[1.01]"
                   style="filter: contrast(1.03) brightness(0.98); border-radius: 12px;"

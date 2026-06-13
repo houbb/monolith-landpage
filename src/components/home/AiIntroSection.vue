@@ -137,7 +137,7 @@ onUnmounted(() => {
               <!-- Inner subtle glow on image hover area -->
               <div class="relative rounded-xl overflow-hidden group">
                 <img
-                  src="/monolith-ai-workflow.webp"
+                  src="/monolith-ai-workflow.png"
                   alt="Monolith AI Workflow"
                   class="w-full h-auto object-contain transition-transform duration-700 group-hover:scale-[1.01]"
                   style="filter: contrast(1.03) brightness(0.98); border-radius: 12px;"
