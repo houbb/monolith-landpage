@@ -3,6 +3,6 @@ export const CONTACT = {
   githubIssues: 'https://github.com/houbb/monolith-landpage/issues',
   githubDiscussions: 'https://github.com/houbb/monolith-landpage/discussions',
   wechatGroupQr: '/WECHAT.png',
-  qqGroupQr: '/contact/qq-group.png',
+  qqGroupQr: '/WECHAT.png',
   authorQr: '/AUTHOR_WECHAT.jfif',
 }
